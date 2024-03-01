@@ -1,0 +1,86 @@
+/* ----=== NavBar ===----- */
+.navbar-nav .nav-link,
+.navbar-nav,
+.dropdown-item {
+  color: var(--color-bg);
+  font-weight: var(--fw-2);
+  text-transform: uppercase;
+  font-size: var(--fs-2);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--color-0);
+}
+
+.dropdown-menu {
+  background-color: rgba(26, 22, 18, 0.9);
+  color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  border-top: 1px solid var(--color-3);
+  border-bottom: 1px solid var(--color-3);
+}
+.dropdown-menu[data-bs-popper] {
+  top: auto;
+}
+
+.mega_menu {
+  position: static;
+}
+.mega_area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 15px;
+}
+.prod-cat {
+  border-top: 1px dashed var(--color-3);
+  font-size: 14px;
+}
+
+h2,
+h3 {
+  padding-top: 0.3125rem;
+  padding-left: 3.125rem;
+  font-size: var(--fs-1);
+  text-align: center;
+}
+
+.prod-sect .card {
+  height: 45px;
+  width: 100%;
+}
+
+.card-title {
+  color: var(--fc-w);
+  font-size: clamp(0.75rem, 4.8688px + 2.5vw, 1rem);
+  margin: 0;
+}
+.card {
+  word-wrap: unset;
+}
+.prod-sect .card:not(:hover) {
+  filter: opacity(0.8);
+}
+@media only screen and (max-width: 998px) {
+  .navbar-collapse {
+    background-color: rgba(26, 22, 18, 0.982);
+    /*  background-color: blue; */
+  }
+  .mega_area {
+    background-color: rgba(43, 35, 27, 0.982);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .seccion-inter:first-of-type {
+    border-bottom: 1px solid var(--color-4);
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 999px) {
+  .seccion-inter:first-of-type {
+    border-right: 1px solid var(--color-4);
+  }
+}
