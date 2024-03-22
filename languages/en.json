@@ -1,0 +1,32 @@
+{ 
+    "navbarHome" :"Home",
+    "navbarProd": "Products",
+    "navbarCI": "International Certification",
+    "navbarCafe" : "Coffee",
+    "navbarLact": "Dairy",
+    "navbarAzcr": "Sugar",
+    "navbarFts" : "Nuts",
+    "navbarW" : "Wines",
+    "navbarBeef": "Beef",
+    "navbarH": "Bone",
+    "navbarSH": "Boneless",
+    "navbarElab": "Elaborated",
+    "navbarBG":"Burger",
+    "navbarqlt":"Quality",
+    "navbarLog":"Logistic",
+    "navbarCt": "Contact",
+    "navbarHL": "Halal Certification",
+    "navbarAll": "See all products -->",
+
+    "homeDesc": "International Producer And Exporter", 
+    "homeDesc2": " of Food Products",
+    "homeDesc3": "PEBCO based in Argentina, is a reference in the export of high quality Food Products to the most demanding international markets.",
+    "homeTitle2":"Our Company",
+    "company1":"Based on the improvement of cultivation, breeding and food processing techniques, we provide a Premium service, exporting our products throughout the world, along with those of our clients and business partners.",
+    "company2":"PEBCO is a leading company in the production and export of Argentine foods. Its managers have more than 30 years of experience in the international market, specializing in the export of natural and processed foods.",
+    "company3":"Values",
+    "company4" : "Its dynamics are based on the close relationship with its clients, transforming PEBCO into a safe and reliable option for the most demanding markets.",
+    "sustent1": "Sustentability",
+    "sustent2": "PEBCO, through its Environmental Management System, is committed to protecting the Environment in each of its integral process and production stages, protecting and conserving present and future natural resources."
+
+}

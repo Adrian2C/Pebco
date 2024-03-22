@@ -1,0 +1,33 @@
+{ 
+    "navbarHome" :"Inicio",
+    "navbarProd": "Productos",
+    "navbarCI": "Certificacion Internacional",
+    "navbarCafe" : "Cafe",
+    "navbarLact": "Lacteos",
+    "navbarAzcr": "Azucar",
+    "navbarFts" : "Frutos Secos",
+    "navbarW" : "Vinos",
+    "navbarBeef": "Carne Bovina",
+    "navbarH": "Con Hueso",
+    "navbarSH": "Sin Hueso",
+    "navbarElab": "Elaborados",
+    "navbarBG":"Hamburguesa",
+    "navbarqlt":"Calidad",
+    "navbarLog": "Logistica",
+    "navbarCt": "Contacto",
+    "navbarHL": "Certificacion Halal",
+    "navbarAll": "Ver todos los productos -->",
+   
+
+    "homeDesc": "Productora y Exportadora", 
+    "homeDesc2": "Internacional de Productos Alimenticios",
+    "homeDesc3": "PEBCO con base en Argentina, es referente en la exportación de Productos Alimenticios de alta calidad a los mercados internacionales más exigentes",
+    "homeTitle2":"Nuestra empresa",
+    "company1":"Basados en el perfeccionamiento de técnicas de cultivo, crianza y procesamientos alimenticios, brindamos un servicio Premium  exportando a todo el mundo nuestros productos, junto al de nuestros clientes y socios comerciales.",
+    "company2":"PEBCO es una empresa líder en producción y exportación de alimentos argentinos. SusDirectivos cuentan con más de 30 años de experiencia en el mercado internacional, especializándose en la exportación de alimentos naturales y procesados",
+    "company3":"Valores",
+    "company4":"Su dinámica se basa en la estrecha relación con sus clientes, transformando a PEBCO en una opción segura y confiable para los más exigentes mercados.",
+    "sustent1": "Desarrollo Sustentable",
+    "sustent2": "PEBCO a través de su Sistema de Gestión Ambiental se encuentra comprometido con la protección del Medio Ambiente en cada una de sus etapas de proceso y producción integral, protegiendo y conservando los recursos naturales presentes y futuros"
+
+}

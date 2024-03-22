@@ -7,8 +7,8 @@
     <meta name="theme-color" content="#6b3b18" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/navbar-style.css">
+    <link rel="stylesheet" href="./style/navbar-style.css">
+    <link rel="stylesheet" href="./style/style.css">
 
     <title>PEBCO</title>
 </head>
@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid text-center">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/logo.webp" alt="Logo" width="50" height="50">
+                    <img src="./assets/image/logo.webp" alt="Logo" width="50" height="50">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -28,55 +28,52 @@
                 <div class="collapse navbar-collapse justify-content-around " id="navbarSupportedContent">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link active" href="./index.html">inicio</a>
+                            <a class="nav-link active" href="./index.html" data-i18n="navbarHome"></a>
                         </li>
 
                         <li class="nav-item dropdown mega_menu ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Productos
-                            </a>
+                                aria-expanded="false" id="mega_menu-prod" data-i18n="navbarProd"></a>
                             <div class="dropdown-menu mega_area">
                                 <div class=" row row-cols-1 row-cols-md-2 w-100">
                                     <div class=" seccion-inter col">
                                         <div class="inter-titulo">
                                             <h2>
-                                                <a href="./pages/prod-inter.html">
-                                                    Certificacion Internacional
-                                                </a>
+                                                <a href="./pages/prod-inter.html" id="mega_area-inter"
+                                                    data-i18n="navbarCI"></a>
                                             </h2>
                                         </div>
                                         <div class="prod-sect row row-cols-2 row-cols-lg-3">
                                             <a href="./pages/product/cafe.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="/assets/product/cafe.jpg" class="card-img"
+                                                    <img src="/assets/image/product/cafe.webp" class="card-img"
                                                         alt="Productos Cafe">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Cafe</h5>
+                                                        <h5 class="card-title" data-i18n="navbarCafe"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/lacteo.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/lacteo.JPG" class="card-img"
+                                                    <img src="./assets/image/product/lacteo.webp" class="card-img"
                                                         alt="Productos Lacteos">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Lacteos</h5>
+                                                        <h5 class="card-title" data-i18n="navbarLact"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/azucar.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/azucar.JPG" class="card-img"
+                                                    <img src="./assets/image/product/azucar.webp" class="card-img"
                                                         alt="Productos Azucar">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Azucar</h5>
+                                                        <h5 class="card-title" data-i18n="navbarAzcr"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/cereal.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/cereal.jpg" class="card-img"
+                                                    <img src="./assets/image/product/cereal.webp" class="card-img"
                                                         alt="Productos cereales">
                                                     <div class="card-img-overlay">
                                                         <h5 class="card-title">Cereal</h5>
@@ -85,50 +82,50 @@
                                             </a>
                                             <a href="./pages/product/frut-sec.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/frutos_secos.JPG" class="card-img"
+                                                    <img src="./assets/image/product/frutos_secos.webp" class="card-img"
                                                         alt="productos frutos secos">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Frutos Secos</h5>
+                                                        <h5 class="card-title" data-i18n="navbarFts"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/vinos.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/vino.JPG" class="card-img"
+                                                    <img src="./assets/image/product/vino.webp" class="card-img"
                                                         alt="productos vinos">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Vinos</h5>
+                                                        <h5 class="card-title" data-i18n="navbarW"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
 
-                                        <h3>Carne Bovina</h3>
+                                        <h3 data-i18n="navbarBeef"></h3>
                                         <div class="prod-sect row  row-cols-2 row-cols-lg-3">
                                             <a href="./pages/product/hueso.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/hueso.JPG" class="card-img"
+                                                    <img src="./assets/image/product/hueso.webp" class="card-img"
                                                         alt="productos carne bovina con hueso">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Con Hueso</h5>
+                                                        <h5 class="card-title" data-i18n="navbarH"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/deshueso.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/sin_hueso.JPG" class="card-img"
+                                                    <img src="./assets/image/product/sin_hueso.webp" class="card-img"
                                                         alt="productos carne bovina sin hueso">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Sin hueso</h5>
+                                                        <h5 class="card-title" data-i18n="navbarSH"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
-                                        <h3>Elaborados</h3>
+                                        <h3 data-i18n="navbarElab"></h3>
                                         <div class="prod-sect row  row-cols-2 row-cols-lg-3">
                                             <a href="./pages/product/bif.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/burger.JPG" class="card-img"
+                                                    <img src="./assets/image/product/burger.webp" class="card-img"
                                                         alt="Productos elaborada bif burger">
                                                     <div class="card-img-overlay">
                                                         <h5 class="card-title">Bif Burger</h5>
@@ -137,10 +134,10 @@
                                             </a>
                                             <a href="./pages/product/burger.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/hamburg.JPG" class="card-img"
+                                                    <img src="./assets/image/product/hamburg.webp" class="card-img"
                                                         alt="productos carne elaborada hamburguesa">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Hamburguesa</h5>
+                                                        <h5 class="card-title" data-i18n="navbarBG"></h5>
                                                     </div>
                                                 </div>
                                             </a>
@@ -149,9 +146,8 @@
                                     <div class=" seccion-inter col">
                                         <div class="inter-titulo">
                                             <h2>
-                                                <a href="./pages/prod-halal.html">
-                                                    Certificacion Halal
-                                                </a>
+                                                <a href="./pages/prod-halal.html" id="mega_area-halal"
+                                                    data-i18n="navbarHL"></a>
                                             </h2>
                                         </div>
 
@@ -159,34 +155,34 @@
 
                                             <a href="./pages/product/cafe.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="/assets/product/cafe.jpg" class="card-img"
+                                                    <img src="/assets/image/product/cafe.webp" class="card-img"
                                                         alt="Productos Cafe">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Cafe</h5>
+                                                        <h5 class="card-title" data-i18n="navbarCafe"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/lacteo.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/lacteo.JPG" class="card-img"
+                                                    <img src="./assets/image/product/lacteo.webp" class="card-img"
                                                         alt="Productos Lacteos">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Lacteos</h5>
+                                                        <h5 class="card-title" data-i18n="navbarLact"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/azucar.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/azucar.JPG" class="card-img"
+                                                    <img src="./assets/image/product/azucar.webp" class="card-img"
                                                         alt="Productos Azucar">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Azucar</h5>
+                                                        <h5 class="card-title" data-i18n="navbarAzcr"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/cereal.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/cereal.jpg" class="card-img"
+                                                    <img src="./assets/image/product/cereal.webp" class="card-img"
                                                         alt="Productos cereales">
                                                     <div class="card-img-overlay">
                                                         <h5 class="card-title">Cereal</h5>
@@ -195,42 +191,41 @@
                                             </a>
                                             <a href="./pages/product/frut-sec.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/frutos_secos.JPG" class="card-img"
+                                                    <img src="./assets/image/product/frutos_secos.webp" class="card-img"
                                                         alt="productos frutos secos">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Frutos Secos</h5>
+                                                        <h5 class="card-title" data-i18n="navbarFts"></h5>
                                                     </div>
                                                 </div>
                                             </a>
-
                                         </div>
 
-                                        <h3>Carne Bovina</h3>
+                                        <h3 data-i18n="navbarBeef"></h3>
                                         <div class="prod-sect row  row-cols-2 row-cols-lg-3">
                                             <a href="./pages/product/hueso.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/hueso.JPG" class="card-img"
+                                                    <img src="./assets/image/product/hueso.webp" class="card-img"
                                                         alt="productos carne bovina con hueso">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Con Hueso</h5>
+                                                        <h5 class="card-title" data-i18n="navbarH"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                             <a href="./pages/product/deshueso.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/sin_hueso.JPG" class="card-img"
+                                                    <img src="./assets/image/product/sin_hueso.webp" class="card-img"
                                                         alt="productos carne bovina sin hueso">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Sin hueso</h5>
+                                                        <h5 class="card-title" data-i18n="navbarSH"></h5>
                                                     </div>
                                                 </div>
                                             </a>
                                         </div>
-                                        <h3>Elaborados</h3>
+                                        <h3 data-i18n="navbarElab"></h3>
                                         <div class="prod-sect row  row-cols-2 row-cols-lg-3">
                                             <a href="./pages/product/bif.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/burger.JPG" class="card-img"
+                                                    <img src="./assets/image/product/burger.webp" class="card-img"
                                                         alt="Productos elaborada bif burger">
                                                     <div class="card-img-overlay">
                                                         <h5 class="card-title">Bif Burger</h5>
@@ -239,10 +234,10 @@
                                             </a>
                                             <a href="./pages/product/burger.html">
                                                 <div class="card text-bg-dark">
-                                                    <img src="./assets/product/hamburg.JPG" class="card-img"
+                                                    <img src="./assets/image/product/hamburg.webp" class="card-img"
                                                         alt="productos carne elaborada hamburguesa">
                                                     <div class="card-img-overlay">
-                                                        <h5 class="card-title">Hamburguesa</h5>
+                                                        <h5 class="card-title" data-i18n="navbarBG"></h5>
                                                     </div>
                                                 </div>
                                             </a>
@@ -250,28 +245,27 @@
                                     </div>
                                 </div>
                                 <div class="prod-cat text-end mt-2">
-                                    <a href="./pages/products.html">
-                                        Ver todos los productos -->
+                                    <a href="./pages/products.html" data-i18n="navbarAll"> 
                                     </a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/calidad.html">Calidad</a>
+                            <a class="nav-link" href="./pages/calidad.html" data-i18n="navbarqlt"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/logi.html">Logistica</a>
+                            <a class="nav-link" href="./pages/logi.html" data-i18n="navbarLog"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="./pages/contact.html">Contacto</a>
+                            <a class="nav-link " href="./pages/contact.html" data-i18n="navbarCt"></a>
                         </li>
                     </ul>
-                    <div class="position-absolute end-0 pe-5 gap-5">
-                        <a href="#">
-                            <img src="./assets/eng.webp" alt="eng">
+                    <div class="position-absolute end-0 pe-5 gap-5" id="">
+                        <a href="#" onclick="changeLanguage('en')">
+                            <img src="./assets/icon/eng.webp" alt="eng" id="eng">
                         </a>
-                        <a href="#">
-                            <img src="./assets/esp.webp" alt="esp">
+                        <a href="#" onclick="changeLanguage('es')">
+                            <img src="./assets/icon/esp.webp" alt="esp" id="esp">
                         </a>
                     </div>
                 </div>
@@ -282,93 +276,71 @@
     <main id="home">
         <div class="text d-flex flex-column align-items-center justify-content-center">
             <h1>PEBCO</h1>
-            <h2>Productora y Exportadora <br>
-                Comercio Internacional de Productos Alimenticios</h2>
+            <h2 data-i18n="homeDesc"></h2>
+            <h2 data-i18n="homeDesc2"></h2>
         </div>
     </main>
     <div class="slogan d-flex flex-column align-items-center justify-content-center p-5">
-        <p class="fw-medium">PEBCO con base en Argentina, es referente en la exportación de Productos Alimenticios de
-            alta calidad a los
-            mercados
-            internacionales más exigentes.</p>
+        <p class="fw-medium" data-i18n="homeDesc3"></p>
     </div>
 
     <div class="empresa section">
-        <h3>Nuestra empresa</h3>
+        <h3 data-i18n="homeTitle2"></h3>
         <div class="cards-container row row-cols-1 row-cols-sm-2 row-cols-lg-3 px-md-5 px-g-4">
 
             <div class="col cards">
                 <div class="h-100 rounded-5">
                     <h5 class="card-header text-center py-4 fw-bold ">Mision</h5>
-                    <img src="./assets/fist.webp" class="card-img-top text-center" alt="mano">
+                    <img src="./assets/icon/fist.webp" class="card-img-top text-center" alt="mano">
                     <div class="card-body">
 
-                        <p class="card-text py-4 px-3">Basados en el perfeccionamiento de técnicas de cultivo, crianza y
-                            procesamientos
-                            alimenticios, brindamos un servicio
-                            Premium exportando a todo el mundo nuestros productos, junto al de nuestros clientes y
-                            socios
-                            comerciales.</p>
+                        <p class="card-text py-4 px-3" data-i18n="company1"></p>
                     </div>
                 </div>
             </div>
             <div class="col cards ">
                 <div class="h-100 rounded-4">
                     <h5 class="card-header text-center py-4 fw-bold ">Vision</h5>
-                    <img src="./assets/eye.webp" class="card-img-top text-center" alt="ojos">
+                    <img src="./assets/icon/eye.webp" class="card-img-top text-center" alt="ojos">
                     <div class="card-body">
-                        <p class="card-text py-4 px-3">PEBCO es una empresa líder en producción y exportación de
-                            alimentos
-                            argentinos. Sus
-                            Directivos cuentan con más de 30
-                            años de experiencia en el mercado internacional, especializándose en la exportación de
-                            alimentos
-                            naturales y procesados.</p>
+                        <p class="card-text py-4 px-3" data-i18n="company2"></p>
                     </div>
                 </div>
             </div>
             <div class="col cards">
                 <div class="h-100 rounded-4">
-                    <h5 class="card-header text-center py-4 fw-bold ">Valores</h5>
-                    <img src="./assets/hand.webp" class="card-img-top text-center" alt="manos">
+                    <h5 class="card-header text-center py-4 fw-bold " data-i18n="company3"></h5>
+                    <img src="./assets/icon/hand.webp" class="card-img-top text-center" alt="manos">
                     <div class="card-body">
-                        <p class="card-text py-4 px-3">Su dinámica se basa en la estrecha relación con sus clientes,
-                            transformando
-                            a PEBCO
-                            en una opción segura y confiable
-                            para los más exigentes mercados.</p>
+                        <p class="card-text py-4 px-3" data-i18n="company4"></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container section mt-5">
-        <h3>Desarrollo Sustentable</h3>
+        <h3 data-i18n="sustent1"></h3>
         <div class="desarrollo my-5 mx-3 ">
-            <p class="fw-bold p-4 p-md-4">PEBCO a través de su Sistema de Gestión Ambiental se encuentra comprometido
-                con la
-                protección del Medio Ambiente en cada
-                una de sus etapas de proceso y producción integral, protegiendo y conservando los recursos naturales
-                presentes y futuros</p>
+            <p class="fw-bold p-4 p-md-4" data-i18n="sustent2"></p>
         </div>
         <div class="container text-center">
             <div class="row">
                 <div class=" col-12  col-lg-4">
                     <a href="https://www.youtube.com/watch?v=Bdwovq_VKFI" alt="video" target="_blank">
-                        <img src="./assets/yt.webp" alt="desarrollo sustentable" class="item">
+                        <img src="./assets/image/yt.webp" alt="desarrollo sustentable" class="item">
                     </a>
                 </div>
 
                 <div class=" col-12  col-lg-4">
                     <a href="./index.html">
-                        <img src="./assets/logo.webp" class="item logo2" alt="logo">
+                        <img src="./assets/image/logo.webp" class="item logo2" alt="logo">
                     </a>
                 </div>
 
                 <div class=" col-12 col-lg-4">
                     <a href="https://www.diferenciador.com/desarrollo-sustentable-y-sostenible/" alt="video"
                         target="_blank">
-                        <img src="./assets/sustentable.webp" alt="desarrollo sustentable" class="item">
+                        <img src="./assets/image/sustentable.webp" alt="desarrollo sustentable" class="item">
                     </a>
                 </div>
             </div>
@@ -380,10 +352,10 @@
             <p class="adrian text-center">Diseñado por <a href="www.adrian-coceres.com" target="_blank">AWCD</a></p>
         </footer>
     </div>
+    <script src="./script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="./assets/script.js"></script>
 </body>
 
 </html>
