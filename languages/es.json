@@ -17,7 +17,8 @@
     "navbarCt": "Contacto",
     "navbarHL": "Certificacion Halal",
     "navbarAll": "Ver todos los productos -->",
-   
+    "footer1" :"Pebco S.A. (c) Copyright 2023 - Todos los derechos reservados",
+    "footer2":"Diseñado por",
 
     "homeDesc": "Productora y Exportadora", 
     "homeDesc2": "Internacional de Productos Alimenticios",
@@ -26,8 +27,19 @@
     "company1":"Basados en el perfeccionamiento de técnicas de cultivo, crianza y procesamientos alimenticios, brindamos un servicio Premium  exportando a todo el mundo nuestros productos, junto al de nuestros clientes y socios comerciales.",
     "company2":"PEBCO es una empresa líder en producción y exportación de alimentos argentinos. SusDirectivos cuentan con más de 30 años de experiencia en el mercado internacional, especializándose en la exportación de alimentos naturales y procesados",
     "company3":"Valores",
-    "company4":"Su dinámica se basa en la estrecha relación con sus clientes, transformando a PEBCO en una opción segura y confiable para los más exigentes mercados.",
+    "company4":"Su dinámica se basa en la estrecha relación con sus clien   tes, transformando a PEBCO en una opción segura y confiable para los más exigentes mercados.",
     "sustent1": "Desarrollo Sustentable",
-    "sustent2": "PEBCO a través de su Sistema de Gestión Ambiental se encuentra comprometido con la protección del Medio Ambiente en cada una de sus etapas de proceso y producción integral, protegiendo y conservando los recursos naturales presentes y futuros"
+    "sustent2": "PEBCO a través de su Sistema de Gestión Ambiental se encuentra comprometido con la protección del Medio Ambiente en cada una de sus etapas de proceso y producción integral, protegiendo y conservando los recursos naturales presentes y futuros",
 
+    "logiMain":"PEBCO enfatiza el control de la logística de los productos que produce o comercializa, garantizando que toda la sea transportada de manera segura y desde el lugar de origen hasta el destino final de nuestros en todo el mundo. En este aspecto, PEBCO ejerce un exhaustivo control, mediante el Sistema Integral de trazabilidad de todos los productos, desde su origen hasta la recepción del consumidor final, adaptados además a las regulaciones y requisitos internacionales",
+    
+    "Qlt":"CALIDAD",
+    "qltDesc":"En PEBCO garantizamos los estándares de calidad y seguridad más altos del mercado de manera responsable y sostenible, ya que consideramos que la calidad es esencial para la exportación de alimentos, satisfaciendo las necesidades de cada cliente y asegurando que los sistemas de producción sean sostenibles, responsables y seguros para el medio ambiente y las personas.",
+    "qltDescSub":"Seguridad Alimentaria y los Estándares Internacionales de Calidad, ofreciendo de esta forma, productos alimenticios seguros y saludables, respondiendo a las exigencias de calidad, tendencias y preferencias de los consumidores internacionales.",
+    "qltTitle":"Certificaciones",
+    "qltCert":"PEBCO tiene por conviccion el profundo respeto por las tradiciones y costumbres, al igual que los preceptos y normas religiosas de las mas variadas culturas",
+
+    "contactTl":"Escribenos y le responderemos a la brevedad!",
+    "navbarSnd":"Enviar",
+    "navbarErs":"Borrar"
 }

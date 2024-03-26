@@ -257,23 +257,25 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../calidad.html">Calidad</a>
+                            <a class="nav-link" href="../../calidad.html"data-i18n="navbarqlt"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../logi.html">Logistica</a>
+                            <a class="nav-link" href="../../logi.html"data-i18n="navbarLog"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="../contact.html">Contacto</a>
+                            <a class="nav-link " href="../../contact.html"data-i18n="navbarCt"></a>
                         </li>
                     </ul>
-                    <div class="position-absolute end-0 pe-5 gap-5">
-                        <a href="#">
-                            <img src="../../assets/icon/eng.webp" alt="eng">
+                    
+                    <div class="position-absolute end-0 pe-5 gap-5" id="">
+                        <a href="#" onclick="changeLanguage('en')">
+                            <img src="../../assets/icon/eng.webp" alt="eng" id="eng">
                         </a>
-                        <a href="#">
-                            <img src="../../assets/icon/esp.webp" alt="esp">
+                        <a href="#" onclick="changeLanguage('es')">
+                            <img src="../../assets/icon/esp.webp" alt="esp" id="esp">
                         </a>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -290,14 +292,13 @@
 
 
 
-    <div class="footer mt-5">
+    <div class="footer">
         <footer class="py-2">
-            <p class="text-center">Pebco S.A. (c) Copyright 2023 // Todos los derechos reservados</p>
+            <p class="text-center" data-i18n="footer1">Pebco S.A. (c) Copyright 2023 // Todos los derechos reservados</p>
             <p class="adrian text-center">Diseñado por <a href="www.adrian-coceres.com" target="_blank">AWCD</a></p>
         </footer>
     </div>
-    <script src="../../script/lang.js"></script>
-    <script src="../../script/script.js"></script>
+    <script src="../script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
