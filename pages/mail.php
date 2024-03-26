@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $comments = $_POST["comments"];
 
-    $to = "your@email.com"; // Replace with your email address
+    $to = "adriancoceres.93@gmail.com"; // Replace with your email address
     $subject = "Mensaje atraves de PEBCO";
     $message = "Name: $name\n";
     $message .= "Company: $company\n";
