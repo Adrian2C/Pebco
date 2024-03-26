@@ -15,6 +15,7 @@
     "navbarqlt":"Quality",
     "navbarLog":"Logistics",
     "navbarCt": "Contact",
+    "navbarO":"Others",
     "navbarHL": "Halal Certification",
     "navbarAll": "See all products -->",
     "footer1" :"Pebco S.A. (c) Copyright 2023 - All Right reserved",
@@ -30,9 +31,13 @@
     "company4" : "Its dynamics are based on the close relationship with its clients, transforming PEBCO into a safe and reliable option for the most demanding markets.",
     "sustent1": "Sustentability",
     "sustent2": "PEBCO, through its Environmental Management System, is committed to protecting the Environment in each of its integral process and production stages, protecting and conserving present and future natural resources.",
-
+    "prodMain":"At PEBCO we specialize in the production and export of products, oriented to the palate, but always respecting the traditions of each target population. We offer a wide variety of products that are grown or raised in the best regions of Argentina, known for the attributes of their soils and variety of climates.",
     "logiMain":"PEBCO emphasizes controlling the logistics of the products it produces or markets, ensuring that everything is transported safely and from the place of origin to the final destination of our products around the world. In this regard, PEBCO exercises exhaustive control, through the Comprehensive Traceability System of all products, from their origin to the reception of the final consumer, also adapted to international regulations and requirements.",
-    
+
+    "prodTl":"Argentina Export Quality Seal",
+    "prodTx":"We direct our efforts to implement this seal that distinguishes Argentine export companies that offer high quality products and services, meeting all requirements in areas such as quality, customer service, compliance with standards, regulations and corporate social responsibility.",
+    "prodHl":"PEBCO stands out among all its products with 100% HALAL Certification, issued by the Islamic center of the Argentine Republic. This seal means “permitted”, “licit” or “authorized” for consumption in the dietary order of the Islamic Religion. A product is Islamic Halal as long as it complies with the regulations derived from the Islamic doctrine emanating from the Holy Quran and the prophetic tradition, and must not contain any prohibited ingredients, complemented with precepts of hygiene and extreme healthiness. This means that in different populations and non-Muslim countries, today the term Halal has become synonymous with guaranteed quality and healthy food, which means that today it is demanded daily by Muslims and non-Muslims wherever they live.",
+
     "Qlt":"Quality",
     "qltDesc":"At PEBCO we guarantee the highest quality and safety standards on the market in a responsible and sustainable manner, since we consider that quality is essential for food exports, satisfying the needs of each client and ensuring that production systems are sustainable, responsible and safe for the environment and people.",
     "qltDescSub":"Food Safety and International Quality Standards, thus offering food products insurance and healthy, responding to quality demands, trends and consumer preferences international.",
