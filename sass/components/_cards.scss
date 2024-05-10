@@ -1,0 +1,61 @@
+@use '../utils/variables' as v;
+
+.cards {
+    margin: 20px auto;
+    height: 450px;
+    width: 350px;
+    border-radius: 52px;
+    background: linear-gradient(
+    180deg,
+    v.$color-3,
+    rgba(223, 154, 50, 0.116)
+    );
+    border: 1px solid rgba(180, 111, 8, 0.219);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+
+    h5 {
+        color: v.$fc-b;
+        font-size: v.$fs-4;
+    }
+    p {
+        line-height: 25px;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        margin:auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+    margin: 0 auto;
+    }
+}
+
+.desarrollo {
+    font-size: v.$fs-2;
+    background-color: v.$color-0;
+    border-radius: v.$fs-3;
+    line-height: 40px;
+
+    @media screen and (min-width: 769px) {
+        padding: 0.25rem 6.25rem;
+        margin: 2.1875rem 0rem;
+    }
+}
+.item {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+.logo2 {
+    width: 80%;
+    height: 80%;
+}
+.container .row .yt img {
+    border: 112px solid red;
+}
+.cards-container{
+    @media screen and (min-width: 769px) {
+        margin: 3.125rem 0;
+    }
+}

@@ -1,0 +1,14 @@
+@use './variables' as v;
+
+@mixin hover{
+    border-bottom:1px solid v.$color-0;
+    color:v.$color-1;
+    font-weight: v.$fw-3;
+}
+
+@mixin card{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}

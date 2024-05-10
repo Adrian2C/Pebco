@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6b3b18" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>PEBCO</title>
+</head>
+
+<body>
+    <header class="position-absolute z-1 w-100">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid text-center">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../sass/assets/image/logo.webp" alt="Logo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around " id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html" data-i18n="navbarHome"></a>
+                        </li>
+
+                        <li class="nav-item dropdown mega_menu ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" id="mega_menu-prod" data-i18n="navbarProd"></a>
+                            <div class="dropdown-menu mega_area">
+                                <div class=" row row-cols-1 row-cols-md-2 w-100">
+                                    <div class=" seccion-inter col">
+                                        <div class="inter-titulo">
+                                            <h2>
+                                                <a href="../pages/prod-inter.html" id="mega_area-inter"
+                                                    data-i18n="navbarCI"></a>
+                                            </h2>
+                                        </div>
+                                        <div class="prod-sect row row-cols-2 row-cols-lg-3">
+                                            <a href="../pages/product/cafe.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/cafe.webp" class="card-img"
+                                                        alt="Productos Cafe">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarCafe"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/lacteo.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/lacteo.webp" class="card-img"
+                                                        alt="Productos Lacteos">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarLact"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/azucar.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/azucar.webp" class="card-img"
+                                                        alt="Productos Azucar">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarAzcr"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/cereal.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/cereal.webp" class="card-img"
+                                                        alt="Productos cereales">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title">Cereal</h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/frut-sec.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/frutos_secos.webp"
+                                                        class="card-img" alt="productos frutos secos">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarFts"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/vinos.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/vino.webp" class="card-img"
+                                                        alt="productos vinos">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarW"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <h3 data-i18n="navbarBeef"></h3>
+                                        <div class="prod-sect row  row-cols-2 row-cols-lg-3">
+                                            <a href="../pages/product/hueso.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/hueso.webp" class="card-img"
+                                                        alt="productos carne bovina con hueso">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarH"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/deshueso.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/sin_hueso.webp" class="card-img"
+                                                        alt="productos carne bovina sin hueso">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarSH"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <h3 data-i18n="navbarElab"></h3>
+                                        <div class="prod-sect row  row-cols-2 row-cols-lg-3">
+                                            <a href="../pages/product/bif.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/burger.webp" class="card-img"
+                                                        alt="Productos elaborada bif burger">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title">Bif Burger</h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/burger.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/hamburg.webp" class="card-img"
+                                                        alt="productos carne elaborada hamburguesa">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarBG"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class=" seccion-inter col">
+                                        <div class="inter-titulo">
+                                            <h2>
+                                                <a href="../pages/prod-halal.html" id="mega_area-halal"
+                                                    data-i18n="navbarHL"></a>
+                                            </h2>
+                                        </div>
+
+                                        <div class="prod-sect row  row-cols-2 row-cols-lg-3">
+
+                                            <a href="../pages/product/cafe.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/cafe.webp" class="card-img"
+                                                        alt="Productos Cafe">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarCafe"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/lacteo.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/lacteo.webp" class="card-img"
+                                                        alt="Productos Lacteos">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarLact"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/azucar.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/azucar.webp" class="card-img"
+                                                        alt="Productos Azucar">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarAzcr"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/cereal.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/cereal.webp" class="card-img"
+                                                        alt="Productos cereales">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title">Cereal</h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/frut-sec.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/frutos_secos.webp"
+                                                        class="card-img" alt="productos frutos secos">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarFts"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <h3 data-i18n="navbarBeef"></h3>
+                                        <div class="prod-sect row  row-cols-2 row-cols-lg-3">
+                                            <a href="../pages/product/hueso.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/hueso.webp" class="card-img"
+                                                        alt="productos carne bovina con hueso">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarH"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/deshueso.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/sin_hueso.webp" class="card-img"
+                                                        alt="productos carne bovina sin hueso">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarSH"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <h3 data-i18n="navbarElab"></h3>
+                                        <div class="prod-sect row  row-cols-2 row-cols-lg-3">
+                                            <a href="../pages/product/bif.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/burger.webp" class="card-img"
+                                                        alt="Productos elaborada bif burger">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title">Bif Burger</h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="../pages/product/burger.html">
+                                                <div class="card text-bg-dark">
+                                                    <img src="../sass/assets/image/product/hamburg.webp" class="card-img"
+                                                        alt="productos carne elaborada hamburguesa">
+                                                    <div class="card-img-overlay">
+                                                        <h5 class="card-title" data-i18n="navbarBG"></h5>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prod-cat text-end mt-2">
+                                    <a href="../pages/products.html" data-i18n="navbarAll">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/calidad.html" data-i18n="navbarqlt"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/logi.html" data-i18n="navbarLog"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/contact.html" data-i18n="navbarCt"></a>
+                        </li>
+                    </ul>
+                    <div class="position-absolute d-flex end-0 pe-5 gap-1" id="">
+                        <a href="#" onclick="changeLanguage('en')">
+                            <img src="../sass/assets/icon/eng.webp" alt="eng" id="eng">
+                        </a>
+                        <a href="#" onclick="changeLanguage('es')">
+                            <img src="../sass/assets/icon/esp.webp" alt="esp" id="esp">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="section_hero">
+        <img src="../sass/assets/image/contact.webp" class="card-img" alt="hero Contacto">
+        <div class="card-img-overlay position-relative">
+            <h5 class="section_title position-absolute bottom-0 end-0" data-i18n="navbarCt"></h5>
+        </div>
+    </div>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3787253486644!2d-58.38228112450329!3d-34.594583572957596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab65651b7d7%3A0x79f06a9f08b2bbe4!2sSgto.%20Cabral%20881%2C%20C1008%20CABA!5e0!3m2!1ses-419!2sar!4v1698945120355!5m2!1ses-419!2sar"
+        class="w-100 my-5" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+
+
+    <div class="container contact-form  mb-5">
+        <div class="row">
+            <div class="col-md-4 color-1 p-5">
+                <ul>
+                    <li class="pb-4 fw-bold"><i class="bi bi-telephone-fill"></i> +54 9 11 xxxx xxx</li>
+                    <li class="pb-4 fw-bold">Fax: xxxx xxxx</li>
+                    <li class="pb-4 fw-bold"><i class="bi bi-at"></i>info@pebcofood.com</li>
+                    <li class="pb-4 fw-bold"><i class="bi bi-geo-alt-fill"></i>Sto. Cabral 881 6°F, C.A.B.A.
+                        <br>C.P:C1059AAA – ARGENTINA
+                    </li>
+                </ul>
+                <img src="../sass/assets/image/logo.webp" alt="Logo" class="contact-logo">
+            </div>
+
+            <div class="col-md-8 color-2 p-5">
+                <h4 data-i18n="contactTl"><!-- Escribenos y le responderemos a la brevedad! --></h4>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name" data-i18n="contactName"></label>
+                                <input type="text" class="form-control" id="name"  required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="company" data-i18n="contactCompany"></label>
+                                <input type="text" class="form-control" id="company" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="address" data-i18n="contactDirec"></label>
+                                <input type="text" class="form-control" id="address" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="country" data-i18n="contactCountry"></label>
+                                <input type="text" class="form-control" id="country" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone" data-i18n="contactTel"></label>
+                                <input type="text" class="form-control" id="phone" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="email" data-i18n="contactEmail"></label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comments" data-i18n="contactMsg"></label>
+                        <textarea class="form-control" id="comments" rows="4" required></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn fw-bold m-3 pb-3"
+                            data-i18n="navbarSnd"><!-- Enviar --></button>
+                        <button type="reset" class="btn fw-bold  m-3 pb-3"
+                            data-i18n="navbarErs"><!-- Borrar --></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-2 footer">
+        <p class="text-center" data-i18n="footer1">Pebco S.A. (c) Copyright 2023 // Todos los derechos reservados
+        </p>
+        <p class="text-center"><span data-i18n="footer2"></span> <a href="www.adrian-coceres.com" target="_blank"
+                class="adrian">AWCD</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

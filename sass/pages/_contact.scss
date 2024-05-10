@@ -1,0 +1,57 @@
+@use '../utils/variables' as v;
+
+.container.contact-form {
+  -webkit-box-shadow: 0.4375rem 0.625rem 1.875rem 0rem rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0.4375rem 0.625rem 1.875rem 0rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0.4375rem 0.625rem 1.875rem 0rem rgba(0, 0, 0, 0.5);
+}
+.form-control {
+  border-radius: 0;
+}
+.form-group{
+  padding-top:10px;
+  text-align: left;
+}
+.form-group label{
+  padding-bottom:5px;
+  font-weight: v.$fw-4;
+}
+.form-control{
+  border-style:inset;
+  
+}
+img.contact-logo {
+  height: 9.375rem;
+  width: 9.375rem;
+}
+.color-1 {
+  background: linear-gradient(180deg, #f2ca50 0%, rgba(242, 202, 80, 0) 100%);
+}
+.color-2 {
+  background: linear-gradient(
+    180deg,
+    #dc9c50 0%,
+    rgba(212, 148, 50, 0.44) 55.56%,
+    rgba(217, 166, 72, 0) 100%
+  );
+}
+.contact-form button {
+  color:v.$color-5;
+  border-radius: 6px;
+  border:1px solid black;
+  background: #eeda9f88;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+
+  width: 8rem;
+  height: 2.5rem;
+  margin:auto;
+  flex-shrink: 0;
+}
+.contact-form button:hover {
+  background-color: v.$color-2;
+  border: 0.0625rem solid v.$color-3;
+}
+
+.form-control:is(:placeholder-shown):focus {
+  background-color: rgba(252, 226, 177, 0.795);
+}

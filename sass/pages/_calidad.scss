@@ -1,0 +1,50 @@
+@use '../utils/variables' as v;
+
+.calidad__texto {
+  margin: 3.125rem auto;
+  font-weight: v.$fw-4;
+  font-size: v.$fs-3;
+  line-height: 3.125rem;
+}
+.calidad__texto-color {
+  background-color: v.$color-2;
+  padding: 1.25rem;
+}
+.calidad__container {
+  border: 0.0625rem solid black;
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
+.certif__container {
+  background-color: v.$color-0;
+  width: 80%;
+  height: 25vh;
+  border-radius: 1.5rem;
+}
+.container__text {
+  font-size: v.$fs-2;
+  font-weight: v.$fw-3;
+}
+.calidad__texto-color::before {
+  content: "";
+  position: absolute;
+  top: -0.9375rem;
+  right: 3.125rem;
+  transform: rotate(45deg);
+  height: 1.875rem;
+  width: 1.875rem;
+  background-color: v.$color-2;
+  z-index: -1;
+}
+
+.calidad__texto-color::after {
+  content: "";
+  position: absolute;
+  bottom: -0.9375rem;
+  left: 3.125rem;
+  transform: rotate(45deg);
+  height: 1.875rem;
+  width: 1.875rem;
+  background-color: v.$color-2;
+  z-index: -1;
+}

@@ -1,0 +1,55 @@
+@use '../utils/variables' as v;
+
+main {
+    background: fixed center/cover url("../sass/assets/image/main.webp");
+
+    height: 100vh;
+    width: 100%;
+}
+
+.section {
+    h3 {
+    font-size: v.$fs-4;
+    }
+}
+.text {
+    height: 100%;
+    color: v.$fc-w;
+    -webkit-text-stroke-width: 0.0313rem;
+    -webkit-text-stroke-color: rgb(45, 45, 45);
+
+    h1 {
+    font-size: v.$fs-7;
+    color: v.$color-bg;
+    font-family: v.$ff-2;
+    -webkit-text-stroke-width: 0.125rem;
+    -webkit-text-stroke-color:v.$color-5;
+    }
+    h2 {
+    font-size: v.$fs-3;
+    }
+}
+
+.slogan {
+    font-size: v.$fs-2;
+    margin: 1em 1.2em;
+    filter: drop-shadow(0rem 0rem 0.625rem rgba(0, 0, 0, 0.5));
+    
+    @media screen and (min-width:769px){
+        margin: 8.75rem 5.625rem;
+        border: 0.3125rem solid v.$color-3;
+        border-radius: 20px;
+    }
+
+    p{
+        @media screen and (min-width: 1424px) {
+            font-size: v.$fs-4;
+        }  
+    }
+}
+
+.card-prod_item{
+    @media screen and (max-width: 768px) {
+        width: 20rem;
+    }
+}

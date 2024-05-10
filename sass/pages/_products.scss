@@ -1,0 +1,135 @@
+@use '../utils/variables' as v;
+
+.productos {
+  margin: 5rem auto 2.5rem;
+}
+.prod-text {
+  font-size: v.$fs-3;
+  font-weight: v.$fw-3;
+}
+.prod-img img {
+  border-radius: 1.25rem;
+}
+.subtitle {
+  font-size: v.$fs-6;
+  font-weight: v.$fs-2;
+  text-transform: uppercase;
+  margin: 5.625rem auto;
+}
+.product__title {
+  margin-top: 3.125rem;
+  font-weight: v.$fw-4;
+  font-size: v.$fs-4;
+  color:v.$fc-b;
+}
+.card-prod {
+  height: 37.5rem;
+  width: 31.25rem;
+  filter: drop-shadow(0rem 0rem 0.625rem rgba(0, 0, 0, 0.5));
+}
+.prod__card {
+  border-radius: 4.125rem;
+  height: 100%;
+  background: center center / cover no-repeat;
+}
+.prod-inter {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(49, 49, 49, 0.7)
+    ),
+    url("../sass/assets/image/quality-inter.jpg") center center/cover;
+}
+
+.prod-halal {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(49, 49, 49, 0.5)
+    ),
+    url("../sass/assets/image/halal.png") center center/contain no-repeat;
+}
+.card-prod h3 {
+  font-size: v.$fs-4;
+  font-weight: v.$fw-4;
+  padding-bottom: 1.875rem;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+
+  height: 100%;
+}
+.container__product {
+  width: 80vw;
+  height: auto;
+  border-radius: 1.5rem;
+  background: rgba(217, 166, 72, 0.12);
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+.titulo {
+  font-size: v.$fs-3;
+  font-weight: v.$fw-3;
+  padding: 0.9375rem 0;
+}
+.container__product-info {
+  padding: 1.25rem 3.125rem 2.5rem;
+}
+.container__product-info p {
+  line-height: 2.5rem;
+}
+.container__product img {
+  width: 18.75rem;
+  height: 15.625rem;
+}
+
+.card-prod_item {
+  margin: 10px auto;
+  width: 27rem;
+  height: 15rem;
+/*   color: red; */
+}
+/* .border1 {
+  border: 1px solid red;
+} */
+
+.card-prod_text {
+  font-size: v.$fs-4;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  color: v.$fc-w;
+  height: 100%;
+}
+.card-prod_text:hover:not(.elaborado){
+  border:2px solid v.$color-1;
+}
+.overlay_text {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 56%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.enlaces{
+  margin-top:-30px;
+  position:relative;
+}
+.enlaces_boton {
+  display: inline-block;
+}
+.enlaces_boton a {
+  color: v.$color-1;
+  background-color: v.$fc-b;
+  border: 3px solid v.$color-1;
+  border-bottom:none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: v.$fs-2;
+}
+.enlaces_boton:hover a {
+  color: v.$fc-b;
+  background-color: v.$color-1;
+  border: 3px solid v.$fc-b;
+}

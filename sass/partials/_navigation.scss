@@ -1,0 +1,116 @@
+@use '../utils/variables' as v;
+@use '../utils/mixin' as m;
+
+.navbar-toggler {
+    background-color: v.$color-1;
+    margin-bottom: 10px;
+}
+.navbar-nav{
+.nav-link{
+    color: v.$color-bg;
+    font-weight: v.$fw-1;
+    text-transform: uppercase;
+    font-size: v.$fs-2;
+    
+    &.active{
+        color: v.$color-1;
+    }
+    &.show{
+        color: v.$color-1;
+    }
+    &:hover{
+        @include m.hover;
+    }
+}}
+
+
+.dropdown-menu {
+    background-color: rgba(26, 22, 18, 0.9);
+    border-radius: 10px;
+    padding-left: 10px;
+    border-top: 1px solid v.$color-3;
+    border-bottom: 1px solid v.$color-3;
+}
+.dropdown-menu[data-bs-popper] {
+    top: auto;
+}
+
+.mega_menu {
+    position: static;
+}
+.mega_area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px;
+    
+}
+.prod-cat {
+    border-top: 1px dashed v.$color-3;
+    font-size: 14px;
+    padding-top:5px;
+    
+    a{
+        color: v.$color-bg;
+        &:hover{
+            @include m.hover;
+        }
+    }
+}
+
+h2,
+h3 {
+    padding: 10px 0;
+    font-size: v.$fs-1;
+    text-align: center;
+    color: v.$color-bg;
+}
+
+.prod-sect .card {
+    height: 45px;
+    width: 100%;
+    
+}
+
+
+.card {
+    word-wrap: unset;
+    
+    .card-img{
+        @include m.card;
+    }
+    .card-title {
+        color: v.$color-bg;
+        font-size: clamp(0.75rem, 4.8688px + 2.5vw, 1rem);
+        margin: 0;
+    }
+}
+.prod-sect .card:hover {
+    border:2px solid v.$color-2;
+    transition:ease all .3s;
+} 
+/* .prod-sect .card:not(:hover) {
+    filter: opacity(0.8);
+}  */
+
+
+@media only screen and (max-width: 998px) {
+    .navbar-collapse {
+        background-color: rgba(26, 22, 18, 0.982);
+    }
+    .mega_area {
+        background-color: rgba(43, 35, 27, 0.982);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .seccion-inter:first-of-type {
+        border-bottom: 1px solid v.$color-4;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 999px) {
+    .seccion-inter:first-of-type {
+        border-right: 1px solid v.$color-4;
+    }
+}
